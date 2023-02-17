@@ -1,27 +1,27 @@
-*, 
+*,
 *::before,
 *::after {
-    margin: 0px; 
-    padding: 0px; 
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     /* background-image: url('https://images.unsplash.com/photo-1514454529242-9e4677563e7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80'); */
-    width: 100vw; 
-    height: 100vh; 
+    width: 100vw;
+    height: 100vh;
     opacity: .8;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
 .wrapper {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100vh;  
+    height: 100vh;
 }
 
 .currentTemp {
@@ -29,19 +29,19 @@ body {
 }
 
 .city {
-    font-size: 50px; 
+    font-size: 50px;
 }
 
-.weatherInfo > *, 
-.basicInfo > *, 
-.mainContent{
-    padding: 5px; 
+.weatherInfo>*,
+.basicInfo>*,
+.mainContent {
+    padding: 5px;
 }
 
 
 
 .description {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -54,9 +54,9 @@ body {
 .forecast {
     display: grid;
     grid-template-columns: repeat(7, 150px);
-    justify-content: center; 
+    justify-content: center;
     justify-self: end;
-   
+
 }
 
 .basicInfo {
@@ -65,21 +65,47 @@ body {
 }
 
 .mainContent {
-    background-color: white; 
+    background-color: white;
     padding: 10px;
-    align-self: center; 
+    align-self: center;
     width: 300px;
 }
 
-.slider { 
-    border-radius: 50%; 
+.slider {
+    border-radius: 50%;
 }
 
-.unit {
-    padding: 3px; 
-    background-color: white; 
-    border-radius: 0px;
-    border: 1px solid black; 
-    margin: 10px;
-    
+input {
+    height: 1.7em;
+}
+
+.unit,
+button {
+    padding: 2.65px 8px;
+    background-color: white;
+    border-radius: 2px;
+    border: 1px solid black;
+    margin: 1em .5em;
+
+}
+
+
+button:hover,
+.unit:hover {
+    transform: scale(1.05);
+    background-color: rgb(230, 225, 225);
+}
+
+.footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+
+
+.footer a {
+    text-decoration: none;
+    color: black;
+
 }
