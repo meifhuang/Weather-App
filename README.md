@@ -1,7 +1,7 @@
 # Weather-App
 Odin Project - A simple weather application created with HTML, CSS, Javascript using <a href="https://openweathermap.org/api"> Open Weather API </a>
 
-<a href="https://meifhuang.github.io/Weather-App/" > View Demo </a> 
+<a href="https://meifhuang.github.io/Weather-App/" > Live Demo </a> 
 
 ## Usage
 
